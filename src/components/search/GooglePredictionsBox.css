@@ -40,6 +40,11 @@
   box-sizing: border-box;
 }
 
+/* show only first 8 */
+.autocomplete-item + .autocomplete-item + .autocomplete-item + .autocomplete-item + .autocomplete-item + .autocomplete-item + .autocomplete-item + .autocomplete-item + .autocomplete-item {
+  display: none;
+}
+
 .autocomplete-item {
   padding: 5px 5px 5px 35px;
   /* height: 26px;
